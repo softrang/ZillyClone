@@ -1,14 +1,13 @@
 import React from 'react'
 import Fproduct3 from '../Product/Fproduct3'
 import { useDeta } from '../Context/SharedDeta'
-import Fproduct1 from '../Product/Fproduct1'
-import Fproduct2 from '../Product/Fproduct2'
+
 import Fproduct11 from '../Product/Fproduct11'
 import Fproduct222 from '../Product/Fproduct222'
 import { Link } from 'react-router-dom'
 
 const Page5 = () => {
-  const {deta, deta4, deta5, deta6, deta7, deta8 } = useDeta()
+  const {deta, deta4, deta5, deta6,  deta8 } = useDeta()
  
 
   const [item1, item2]= deta

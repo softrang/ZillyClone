@@ -2,7 +2,7 @@ import React from 'react'
 import Heade from '../Header/Heade'
 import Footer from '../Footer/Footer'
 import { useDeta } from '../Context/SharedDeta'
-import Fproduct1 from '../Product/Fproduct1'
+
 import Product from '../Product/Product'
 import { Link } from 'react-router-dom'
 

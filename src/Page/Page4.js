@@ -2,12 +2,12 @@ import React from 'react'
 import Fproduct2 from '../Product/Fproduct2'
 import { useDeta } from '../Context/SharedDeta'
 import  Banner3 from "../Assets/banner/banner3.jpg"
-import Fproduct22 from '../Product/Fproduct22'
+
 import { Link } from 'react-router-dom'
 
 const Page4 = () => {
 
-  const {deta,  deta2, deta3, deta4, deta5, deta6, deta7, deta8 } = useDeta()
+  const { deta2, deta5, deta6,  deta8 } = useDeta()
  
 
   const [item1, item2]= deta5
