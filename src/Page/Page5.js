@@ -8,7 +8,7 @@ import Fproduct222 from '../Product/Fproduct222'
 import { Link } from 'react-router-dom'
 
 const Page5 = () => {
-  const {deta,  deta2, deta3, deta4, deta5, deta6, deta7, deta8 } = useDeta()
+  const {deta, deta4, deta5, deta6, deta7, deta8 } = useDeta()
  
 
   const [item1, item2]= deta

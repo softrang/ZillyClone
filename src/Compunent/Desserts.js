@@ -7,7 +7,7 @@ import Product from '../Product/Product'
 import { Link } from 'react-router-dom'
 
 const Desserts = () => {
-    const {deta, deta3} = useDeta()
+    const {deta3} = useDeta()
   return (
     <div className='w-full h-max bg-zinc-100'>
     <div className='App h-max '> 
