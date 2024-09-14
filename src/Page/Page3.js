@@ -68,9 +68,9 @@ const Page3 = () => {
         <div> <h1 className=' text-3xl px-2 font-serif italic'>Deal Of The Week</h1> </div> 
            <div className=' flex gap-5 py-2 px-2'> 
             <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2 '><p className='d text-xl '></p> days</button>
-            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'><h1 className='h text-xl'> </h1> hours</button>
-            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <h1 className='m text-xl'> </h1>munite</button>
-            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <h1 className='s text-xl'> </h1> Sec</button>
+            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'><p className='h text-xl'> </p> hours</button>
+            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <p className='m text-xl'> </p>munite</button>
+            <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <p className='s text-xl'> </p> Sec</button>
 
         </div>
     </div>
