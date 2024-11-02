@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className='bg-green1'>
     <div className=' App h-max bg-green text-white '>
-<div className=' w-full h-max flex gap-2 px-5'> 
-<div className='w-1/4  p-2'>
+<div className=' w-full h-max flex gap-2 xsm:flex-col lmd:flex-row lmd:flex-wrap lg:flex-row lg:flex-nowrap '> 
+<div className='xsm:w-full lmd:w-4/12 lg:w-1/5  '>
 <img className='py-5' src= {Llogo} alt='' />
 <p className='text-xsm font-mono italic mb-5'> When an unknown printer took a galley of type scrambled it to make a type specimen book.</p>
 <p className='mt-2'> <i className="fa-solid fa-location-dot"></i>&nbsp;  23/A Road, Newyork City</p>
@@ -17,7 +17,8 @@ const Footer = () => {
 
 
  </div>
-<div className='w-1/6  p-2'> 
+ <div className='xsm:w-full lmd:w-7/12 lg:w-8/12 flex  xsm:flex-col sm:flex-row sm:flex-wrap '> 
+<div className='xsm:w-full sm:w-1/2  md:w-1/3   '> 
 <h1 className='text-2xl px-5 py-5 '> Quick Links </h1>
 <h1 className='text-xl px-5 py-1 '> Smartphones </h1>
 <h1 className='text-xl px-5 py-1 '> Headphones </h1>
@@ -28,7 +29,7 @@ const Footer = () => {
  
  
 </div> 
-<div className='w-1/6  p-2'> 
+<div className='xsm:w-full sm:w-1/2 md:w-1/3 lmd:w-1/4 lg:w-1/4    '> 
 <h1 className='text-2xl px-5 py-5 '> Acount </h1>
 <h1 className='text-xl px-5 py-1 '> Dashboard </h1>
 <h1 className='text-xl px-5 py-1 '> Orders </h1>
@@ -38,7 +39,7 @@ const Footer = () => {
 <h1 className='text-xl px-5 py-1 '> Login Register</h1>
 
 </div>
-<div className='w-1/5  p-2'> 
+<div className='xsm:w-full sm:w-1/2  md:w-1/3  lmd:w-2/5 lg:w-2/5 '> 
 <h1 className='text-2xl px-5 py-5 '> Privacy Policy </h1>
 <h1 className='text-xl px-5 py-1 '> Returns & Exchanges </h1>
 <h1 className='text-xl px-5 py-1 '> Payment Terms </h1>
@@ -48,7 +49,8 @@ const Footer = () => {
 <h1 className='text-xl px-5 py-1 '> Privacy Policy </h1>
 
 </div>
-  <div className='w-1/4  p-2'> 
+</div>
+  <div className='xsm:w-full lmd:w-4/12 lg:w-1/4  '> 
   <h1 className='text-2xl py-5 '> Sinup News Later</h1>
   <p className='text-xsm'>When an unknown printer took a <br/> galley of type and scrambled</p>
 

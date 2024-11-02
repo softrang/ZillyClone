@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog1 = ({deta}) => {
   return (
-    <div className='blog min-w-[25%] h-max p-3 overflow-hidden'> 
+    <div className='blog xsm:min-w-full lsm:min-w-[50%] md:min-w-[33%] lg:min-w-[25%] h-max p-3 overflow-hidden'> 
     <div className=' w-full h-max shadow-md shadow-zinc-800 bg-zinc-10 p-2 border-2 border-zinc-300 rounded-xl overflow-hidden'>
         <div className='w-full h-48 '>
         <img className='w-full h-full   hover:scale-[1.1] transition-all' src={deta.image} alt=''/>

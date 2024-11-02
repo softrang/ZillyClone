@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
+  
 } from "react-router-dom";
 import Bevarej from './Compunent/Bevarej';
 
@@ -21,7 +22,19 @@ import Allproduct from './Product/Allproduct';
 import ProductDetails from './Product/ProductDetails';
 
 
+
+
+  
+  
+
+
+
+
+
+
 const router = createBrowserRouter([
+ 
+ 
   {
     path: "/",
     element: <App/>,
@@ -73,7 +86,9 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+ 
   <React.StrictMode>
+   
     <DetaProvider> 
     <RouterProvider router={router} />
     </DetaProvider>

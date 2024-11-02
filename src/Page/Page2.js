@@ -495,13 +495,14 @@ All.style.transform= "translateY(100%)"
   return (
      <div className='w-full'>
     <div className=' App h-max bg-zinc-50  z-10  '>
-        <div className='flex h-12 justify-between items-center px-2'> 
-        <h1 className='text-3xl font-sans px-2 font-bold'> Featured Products</h1>
-        <div className='flex gap-2 justify-center items-center'>
-            <button className='all1 text-xsm px-2'>All ({Allle})</button>
-            <button className='bev text-xsm px-2'>Beverage ({Beb})</button>
-            <button className=' des1 text-xsm px-2'>Desserts ({Dess}) </button>
-            <button className='veg1 text-xsm px-2'>Vegetables ({Vegl}) </button>
+        <div className='w-full flex xsm:flex-col  lg:flex-row h-max justify-between items-center px-2'> 
+        <h1 className=' xsm: w-full text-3xl font-sans px-2 py-2 font-bold'> Featured Products</h1>
+
+        <div className=' xsm: w-full flex gap-2 justify-end items-center py-2'>
+            <button className='all1 text-xsm xsm:px-1 lg:px-2'>All ({Allle})</button>
+            <button className='bev text-xsm xsm:px-1 lg:px-2'>Beverage ({Beb})</button>
+            <button className=' des1 text-xsm xsm:px-1 lg:px-2'>Desserts ({Dess}) </button>
+            <button className='veg1 text-xsm xsm: px-1 lx:px-2'>Vegetables ({Vegl}) </button>
 
             <button className='goPrev w-10 h-10 border-2 border-zinc-400 opacity-50'><i className="fa-solid fa-angle-left"></i></button>
             <button className='goNext w-10 h-10 border-2 border-zinc-400 opacity-50'><i className="fa-solid fa-angle-right"></i></button>
@@ -513,10 +514,11 @@ All.style.transform= "translateY(100%)"
             <button className='goNext3 hidden w-10 h-10 border-2 border-zinc-400 opacity-50'><i className="fa-solid fa-angle-right"></i></button>
 
              </div>
+
         </div>
 
         <div className='w-full h-92 relative overflow-hidden '> 
-    <div className=' all flex overflow-hidden '> 
+    <div className='w-full h-max all flex overflow-hidden '> 
 
        
     {Veg.map((items, index) => (

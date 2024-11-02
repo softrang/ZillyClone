@@ -24,7 +24,7 @@ const Page4 = () => {
 
   return (
     <div className='w-full'>
-    <div className=' App h-max bg-zinc-50 '>
+    <div className='  h-max bg-zinc-50 '>
     
     <div className='flex justify-between items-center '>
         <div> <h1 className=' text-3xl px-2 font-serif italic'>Trending Products</h1> </div> 

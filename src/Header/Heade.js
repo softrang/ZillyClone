@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import Dlogo from "../Assets/logoIcon/dark-logo.svg"
 import  Babares from "../Assets/menoIcon/black/bevarage.svg"
 import  Babares1 from "../Assets/menoIcon/black/Desserts.svg"
@@ -22,41 +22,19 @@ import { Link } from 'react-router-dom'
 
 const Heade = () => {
 
-    const sliderRef = useRef(null);
-    const [isDragging, setIsDragging] = useState(false);
-    const [startX, setStartX] = useState(0);
-    const [scrollLeft, setScrollLeft] = useState(0);
-  
-    const handleMouseDown = (e) => {
-      setIsDragging(true);
-      setStartX(e.pageX - sliderRef.current.offsetLeft);
-      setScrollLeft(sliderRef.current.scrollLeft);
-    };
-  
-    const handleMouseLeaveOrUp = () => {
-      setIsDragging(false);
-    };
-  
-    const handleMouseMove = (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      const x = e.pageX - sliderRef.current.offsetLeft;
-      const walk = (x - startX) * 2; // *2 for faster scrolling
-      sliderRef.current.scrollLeft = scrollLeft - walk;
-    };
-
+   
   
   return (
     <div className='z-50'>
-    <div className=' App h-max bg-white py-2 '>
-        <div className='flex gap-5'> 
-        <div className='w-3/5 py-4  flex justify-between items-center px-3'> 
+    <div className='h-max bg-white py-3 relative'>
+        <div className='flex gap-5 xsm:flex-wrap lg:flex-nowrap  '> 
+        <div className='xsm:w-full lg:w-2/12 xsm:py-0 lg:py-4  flex justify-between items-center lg:px-3 xsm:px-0'> 
       <Link to="/">  <img src= {Dlogo} alt=''/> </Link> 
-        <div className=' hidden text-xl py-2 px-5 rounded-2xl font-mono border-2 border-zinc-300 flex justify-center items-center'> 
+        <div className='xsm:block lg:hidden  text-xl py-2 px-5 rounded-2xl font-mono border-2 border-zinc-300 flex justify-center items-center'> 
         
         
-       < h1 className='group relative  '> <i className="fa-solid fa-bars"></i> &nbsp;  ALl Cateagoriy &nbsp; <i className="fas fa-sort-down"></i> 
-            <ul  className='hidden group-hover:block absolute bg-zinc-50 z-50  w-full leading-8 '>
+       < h1 className='group   '> <i className="fa-solid fa-bars"></i> 
+            <ul  className='hidden group-hover:block absolute bg-zinc-50 z-50  w-full leading-8 left-0 top-full '>
             <Link to ="/bevarej">  <li className='flex px-2 gap-5 py-2 border-b-2 border-zinc-300'><img className='w-10 h-10 scale-75' src= {Babares} alt=''/>  Bebares </li></Link>
             <Link to ="/dessert"> <li className='flex px-2 gap-5 py-2 border-b-2 border-zinc-300'><img src= {Babares1} alt=''/> Desserts </li></Link>
             <Link to ="/drink"> <li className='flex px-2 gap-5 py-2 border-b-2 border-zinc-300'><img src= {Babares2} alt=''/> Drinks & Juice </li></Link> 
@@ -74,35 +52,27 @@ const Heade = () => {
          </div>
         
         </div>
-        <div className='w-full py-5  flex justify-between items-center px-5'>
-            <div className='flex justify-center items-center w-8/12 h-10  py-5 rounded-xl overflow-hidden border-2 border-zinc-300'> <input type='search' placeholder='Search Heare' className='w-full h-10 outline-none px-5 bg-white3'/> <button className='w-12 h-10  text-white bg-green1'> <i className="fa-solid fa-magnifying-glass"></i></button> </div>
+
+        <div className='xsm:w-full lg:w-10/12 xsm:py-0 lg:py-5  flex justify-between gap-2 items-center lg:px-5 xsm:px-0'>
+            <div className='flex justify-center items-center w-8/12 xsm:w-10/12 h-10  py-5 rounded-xl overflow-hidden border-2 border-zinc-300'> <input type='search' placeholder='Search Heare' className='w-full h-10 outline-none px-5 bg-white3'/> <button className='w-12 h-10  text-white bg-green1'> <i className="fa-solid fa-magnifying-glass"></i></button> </div>
             
             <button className='w-12 h-12 text-xl border-2 border-zinc-300 rounded-full bg-white1 text-sky-300 flex justify-center items-center'> <i className="fa-solid fa-user"></i> </button>
              </div>
              </div>
              
               <div 
-
-              ref={sliderRef}
-             onMouseDown={handleMouseDown}
-             onMouseLeave={handleMouseLeaveOrUp}
-             onMouseUp={handleMouseLeaveOrUp}
-             onMouseMove={handleMouseMove}
-             style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
-
-
-             className="w-full h-max  flex z-30 px-5 border-2 border-zinc-300 bg-zinc-50 justify-center items-center relative cursor-grab overflow-x-scroll">
+             className="w-full h-max xsm:hidden lg:block  flex z-30 px-2 py-2 border-2 border-zinc-300 bg-zinc-50 justify-center items-center relative">
      
-              <ul className="bg-zinc-50  w-full leading-8 flex gap-6 justify-left items-center whitespace-nowrap">
-            <Link to ="/products">  <li className='  w-40 flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '> </div> All Products </li></Link>
-            <Link to ="/bevarej">  <li className=' w-40 flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev} alt=''/></div> Bebares </li></Link>
-            <Link to ="/dessert"> <li className='  w-40 flex justify-center items-center  gap-2 '><div className='w-12 h-10  flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev1} alt=''/></div> Desserts </li></Link>
-            <Link to ="/drink"> <li className=' w-44 flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev2} alt=''/></div> Drinks & Juice </li></Link> 
-            <Link to ="/fish"> <li className='  w-44 flex justify-center items-center gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev3} alt=''/></div> Fish & Meats </li></Link>
-            <Link to ="/fresh"> <li className=' w-40 flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev4} alt=''/></div> Fresh Fruits </li></Link>
-            <Link to ="/pets">  <li className=' w-48 flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev5} alt=''/></div> Pets & Animals </li></Link>
-            <Link to ="/toys">  <li className='  w-32 flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev6} alt=''/> </div>Toys </li></Link>
-            <Link to ="/veg">  <li className='  w-40 flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev7} alt=''/></div> Vegetables </li></Link>
+              <ul className="bg-zinc-50  w-full leading-8 flex lg:flex-wrap gap-3 justify-center items-center whitespace-nowrap">
+            <Link to ="/products">  <li className='   flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '> </div> All Products </li></Link>
+            <Link to ="/bevarej">  <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev} alt=''/></div> Bebares </li></Link>
+            <Link to ="/dessert"> <li className='   flex justify-center items-center  gap-2 '><div className='w-12 h-10  flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev1} alt=''/></div> Desserts </li></Link>
+            <Link to ="/drink"> <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev2} alt=''/></div> Drinks & Juice </li></Link> 
+            <Link to ="/fish"> <li className='   flex justify-center items-center gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev3} alt=''/></div> Fish & Meats </li></Link>
+            <Link to ="/fresh"> <li className='  flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev4} alt=''/></div> Fresh Fruits </li></Link>
+            <Link to ="/pets">  <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev5} alt=''/></div> Pets & Animals </li></Link>
+            <Link to ="/toys">  <li className='   flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev6} alt=''/> </div>Toys </li></Link>
+            <Link to ="/veg">  <li className='   flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev7} alt=''/></div> Vegetables </li></Link>
               
                
             </ul>

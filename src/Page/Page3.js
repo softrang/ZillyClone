@@ -63,23 +63,25 @@ const Page3 = () => {
 
   return (
     <div className='w-full'>
-    <div className=' App h-max bg-white2 p-8 border-2 border-rose-700 rounded-lg '>
-    <div className='flex justify-between items-center '>
-        <div> <h1 className=' text-3xl px-2 font-serif italic'>Deal Of The Week</h1> </div> 
-           <div className=' flex gap-5 py-2 px-2'> 
+    <div className='h-max bg-white2 p-8 border-2 border-rose-700 rounded-lg '>
+    <div className='w-full flex xsm:flex-col lsm:flex-row lg:flex-row justify-between items-center '>
+
+        <div className='xsm:w-full lsm:w-5/12'> <h1 className=' text-3xl lg:px-2 xsm:py-5 font-serif italic'>Deal Of The Week</h1> </div> 
+           <div className='xsm:w-full lsm:w-5/12 flex items-center justify-end gap-5 py-2 xsm:pb-5 xsm:px-0 lg:px-2'> 
             <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2 '><p className='d text-xl '></p> days</button>
             <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'><p className='h text-xl'> </p> hours</button>
             <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <p className='m text-xl'> </p>munite</button>
             <button className=' w-16 h-16 bg-green1 rounded-xl shadow-lg shadow-zinc-800 text-white font-bold text-xsm px-2'> <p className='s text-xl'> </p> Sec</button>
 
         </div>
+
     </div>
-    <div className=' w-full h-max bg-greenn rounded-xl  flex  gap-2'>
-        <div className='w-1/2 bg-greenn relative'> 
-          <img className='absolute bottom-0' src={Banner2} alt=''/>
+    <div className=' w-full h-max bg-greenn rounded-xl  flex xsm:flex-col lsm:flex-row  gap-2'>
+        <div className='xsm:w-full xsm:h-96 lsm:hidden  lg:block lg:h-auto lg:w-1/2 bg-greenn relative '> 
+          <img className='absolute w-full   xsm:h-full lg:h-auto bottom-0' src={Banner2} alt=''/>
           
            </div>
-        <div className='w-2/6  flex flex-col justify-center items-center '> 
+        <div className='lg:w-2/6  lsm:hidden lg:block flex flex-col justify-center items-center '> 
         {Veg1.map((items, index)=>(
 
           <Link
@@ -109,7 +111,7 @@ const Page3 = () => {
 
 
          </div>
-        <div className='w-10/12 flex flex-wrap gap-x-5  justify-center itmes-center'>
+        <div className='xsm:w-full lg:w-10/12 flex xsm:flex-col lsm:flex-row lsm:flex-wrap lg:flex-row lg:flex-wrap gap-x-5  justify-center itmes-center'>
 
           {Veg.map((items, index)=>(
 

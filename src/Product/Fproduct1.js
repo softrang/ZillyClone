@@ -4,7 +4,7 @@ import StarRating from './Starrating'
 
 const Fproduct1 = ({deta}) => {
   return (
-    <div className='slider min-w-56 h-max  p-2   '>
+    <div className='slider xsm:min-w-[100vw] sm:min-w-[50vw] md:min-w-[33vw] lg:min-w-[20vw] llg:min-w-[16.66vw] h-max  p-2   '>
         <div className='w-full h-max shadow-md shadow-zinc-800 bg-white1 flex justify-center items-center flex-col p-2 relative border-2 border-zinc-300 rounded-xl overflow-hidden'>
            <div className='w-full'> <h1 className="text-xs text-left font-mono italic">{deta.Ftitle}</h1></div> 
             

@@ -27,10 +27,10 @@ const Page5 = () => {
 
   return (
     <div className='w-full'>
-    <div className=' App  h-max bg-zinc-50 p-2 relative '>
-    <div className='w-full flex '> 
-<div className='w-8/12 h-max flex '> 
-<div className='w-5/12 h-max bg-zinc-50 flex-justify-center items-center '>
+    <div className='  h-max bg-zinc-50 p-2 relative '>
+    <div className='w-full flex xsm:flex-col lsm:flex-row '> 
+
+<div className='xsm:w-full  md:w-3/12 h-max bg-zinc-50 flex-justify-center items-center '>
 
 {Veg4.map((items, index)=>(
 
@@ -60,7 +60,8 @@ const Page5 = () => {
  
 
  </div>
-<div className=' w-8/12 h-full bg-zinc-50 p-2 '> 
+ <div className='xsm:w-full md:w-9/12 h-max flex  xsm:flex-col md:flex-row'> 
+<div className=' xsm:w-full  w-1/2 h-full bg-zinc-50 p-2 '> 
 
 {Veg1.map((items, index)=>(
 
@@ -81,8 +82,8 @@ const Page5 = () => {
 </div>
 
 
-</div>
-<div className='w-5/12 h-max bg-zinc-50 p-2'>
+
+<div className='xsm:w-full w-1/2  lsm:hidden md:block h-max bg-zinc-50 p-2'>
 
 {Veg2.map((items, index)=>(
 
@@ -99,7 +100,7 @@ state={{ item: items, allDeta: Veg2 }}
 
  </div>
 
-
+ </div>
  </div>
 
 

@@ -13,7 +13,7 @@ const Page6 = () => {
   
     const handleNextClick = () => {
 
-      console.log(count)
+      
       setCount((prevCount) => prevCount + 1);  
       blogs.forEach((blog) => {
         blog.style.transition = 'transform 0.7s ease-in-out';
