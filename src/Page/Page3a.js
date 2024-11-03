@@ -7,7 +7,7 @@ import Slide from './Slide'
 const Page3a = () => {
   return (
     <div className='w-full'> 
-    <div className='  w-full h-max  bg-zinc-50 h-max flex xsm:flex-col md:flex-row lg:flex-row gap-5 px-2 py-10 '> 
+    <div className=' w-90 m-auto  h-max  bg-zinc-50 h-max flex xsm:flex-col md:flex-row lg:flex-row gap-5 px-2 py-10 '> 
 
     <div className='xsm:w-full lg:w-1/3 h-48 bg-zinc-400 rounded-xl overflow-hidden relative '>
     <Slide image={Ban5}/>

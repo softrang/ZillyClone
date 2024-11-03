@@ -70,7 +70,7 @@ const Page6 = () => {
  const Blog= deta1
   return (
     <div className='w-full'>
-    <div className=' App  h-max bg-zinc-50  '>
+    <div className=' w-90 m-auto  h-max bg-zinc-50  '>
 
       <div className='w-full h-max flex justify-between items-center px-5'> 
         <h1 className='text-3xl font-mono italic  py-5'> Latest News & Blog</h1>

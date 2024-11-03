@@ -9,7 +9,7 @@ import Ban4 from "../Assets/banPhoto/ban4.jpg"
 const Page1 = () => {
   return (
     <div className='w-full  '>
-<div className=' w-full h-max bg-zinc-00 flex xsm:flex-col md:flex-row lg:flex-row  items-center       gap-5 z-10'>
+<div className=' w-90 m-auto h-max bg-zinc-00 flex xsm:flex-col md:flex-row lg:flex-row  items-center       gap-5 z-10'>
 <div className=" xsm:w-full xsm:h-48 lsm:h-72 md:h-96 lg:h-96 rounded-xl z-10  overflow-hidden relative">
   
   <Slide image ={Ban1}/>

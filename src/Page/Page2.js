@@ -494,7 +494,7 @@ All.style.transform= "translateY(100%)"
 
   return (
      <div className='w-full'>
-    <div className=' App h-max bg-zinc-50  z-10  '>
+    <div className=' w-90 m-auto h-max bg-zinc-50  z-10  '>
         <div className='w-full flex xsm:flex-col  lg:flex-row h-max justify-between items-center px-2'> 
         <h1 className=' xsm: w-full text-3xl font-sans px-2 py-2 font-bold'> Featured Products</h1>
 
@@ -591,7 +591,7 @@ All.style.transform= "translateY(100%)"
      
 
 
-<div className='w-full h-44 bg-zinc-50 p-5'>
+<div className='w-full h-44 bg-zinc-50 py-2'>
     <img className='w-full h-full' src={Banner1} alt=''/>
     
     

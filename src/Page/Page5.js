@@ -27,7 +27,7 @@ const Page5 = () => {
 
   return (
     <div className='w-full'>
-    <div className='  h-max bg-zinc-50 p-2 relative '>
+    <div className=' w-90 m-auto h-max bg-zinc-50 p-2 relative '>
     <div className='w-full flex xsm:flex-col lsm:flex-row '> 
 
 <div className='xsm:w-full  md:w-3/12 h-max bg-zinc-50 flex-justify-center items-center '>

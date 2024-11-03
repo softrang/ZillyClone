@@ -3,7 +3,7 @@ import StarRating from './Starrating'
 
 const Fproduct22 = ({deta1}) => {
   return (
-    <div className='xsm:w-full lsm:w-[40vw] lg:w-[23.7vw] flex justify-center items-center  '> 
+    <div className='xsm:w-full lsm:w-[40vw] lg:w-[21.7vw] flex justify-center items-center  '> 
     <div className='w-full  h-40 bg-white1   flex    border border-zinc-200'>
         <div className='w-1/3 h-full flex justify-center items-center '>
           <img className='w-full h-auto scale-75 hover:scale-90 transition-all' src={deta1.image} alt=''/>

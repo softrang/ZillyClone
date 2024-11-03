@@ -26,7 +26,7 @@ const Heade = () => {
   
   return (
     <div className='z-50'>
-    <div className='h-max bg-white py-3 relative'>
+    <div className='w-90 m-auto h-max bg-white py-2 relative'>
         <div className='flex gap-5 xsm:flex-wrap lg:flex-nowrap  '> 
         <div className='xsm:w-full lg:w-2/12 xsm:py-0 lg:py-4  flex justify-between items-center lg:px-3 xsm:px-0'> 
       <Link to="/">  <img src= {Dlogo} alt=''/> </Link> 
@@ -63,16 +63,16 @@ const Heade = () => {
               <div 
              className="w-full h-max xsm:hidden lg:block  flex z-30 px-2 py-2 border-2 border-zinc-300 bg-zinc-50 justify-center items-center relative">
      
-              <ul className="bg-zinc-50  w-full leading-8 flex lg:flex-wrap gap-3 justify-center items-center whitespace-nowrap">
-            <Link to ="/products">  <li className='   flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '> </div> All Products </li></Link>
-            <Link to ="/bevarej">  <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev} alt=''/></div> Bebares </li></Link>
-            <Link to ="/dessert"> <li className='   flex justify-center items-center  gap-2 '><div className='w-12 h-10  flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev1} alt=''/></div> Desserts </li></Link>
-            <Link to ="/drink"> <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev2} alt=''/></div> Drinks & Juice </li></Link> 
-            <Link to ="/fish"> <li className='   flex justify-center items-center gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev3} alt=''/></div> Fish & Meats </li></Link>
-            <Link to ="/fresh"> <li className='  flex justify-center items-center   gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev4} alt=''/></div> Fresh Fruits </li></Link>
-            <Link to ="/pets">  <li className='  flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev5} alt=''/></div> Pets & Animals </li></Link>
-            <Link to ="/toys">  <li className='   flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev6} alt=''/> </div>Toys </li></Link>
-            <Link to ="/veg">  <li className='   flex justify-center items-center  gap-2  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev7} alt=''/></div> Vegetables </li></Link>
+              <ul className="bg-zinc-50  w-full leading-8 flex lg:flex-wrap gap-1 justify-center items-center whitespace-nowrap">
+            <Link to ="/products">  <li className='   flex justify-center items-center   gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '> </div> All Products </li></Link>
+            <Link to ="/bevarej">  <li className='  flex justify-center items-center  gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev} alt=''/></div> Bebares </li></Link>
+            <Link to ="/dessert"> <li className='   flex justify-center items-center  gap-1 '><div className='w-12 h-10  flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto' src= {Bev1} alt=''/></div> Desserts </li></Link>
+            <Link to ="/drink"> <li className='  flex justify-center items-center  gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev2} alt=''/></div> Drinks & Juice </li></Link> 
+            <Link to ="/fish"> <li className='   flex justify-center items-center gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev3} alt=''/></div> Fish & Meats </li></Link>
+            <Link to ="/fresh"> <li className='  flex justify-center items-center   gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev4} alt=''/></div> Fresh Fruits </li></Link>
+            <Link to ="/pets">  <li className='  flex justify-center items-center  gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev5} alt=''/></div> Pets & Animals </li></Link>
+            <Link to ="/toys">  <li className='   flex justify-center items-center  gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50 h-auto'  src= {Bev6} alt=''/> </div>Toys </li></Link>
+            <Link to ="/veg">  <li className='   flex justify-center items-center  gap-1  '><div className='w-12 h-10 flex justify-center items-center  rounded-full '><img className='w-full scale-50  h-auto' src= {Bev7} alt=''/></div> Vegetables </li></Link>
               
                
             </ul>

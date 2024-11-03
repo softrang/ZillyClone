@@ -63,7 +63,7 @@ const Page3 = () => {
 
   return (
     <div className='w-full'>
-    <div className='h-max bg-white2 p-8 border-2 border-rose-700 rounded-lg '>
+    <div className='w-90  m-auto h-max bg-white2 p-4 border-2 border-rose-700 rounded-lg '>
     <div className='w-full flex xsm:flex-col lsm:flex-row lg:flex-row justify-between items-center '>
 
         <div className='xsm:w-full lsm:w-5/12'> <h1 className=' text-3xl lg:px-2 xsm:py-5 font-serif italic'>Deal Of The Week</h1> </div> 
@@ -77,11 +77,11 @@ const Page3 = () => {
 
     </div>
     <div className=' w-full h-max bg-greenn rounded-xl  flex xsm:flex-col lsm:flex-row  '>
-        <div className='xsm:w-full xsm:h-96 lsm:hidden  lg:block lg:h-auto lg:w-1/2 bg-greenn relative '> 
+        <div className='xsm:w-full xsm:h-96 lsm:hidden  lg:block lg:h-auto lg:w-3/12 bg-greenn relative '> 
           <img className='absolute w-full   xsm:h-full lg:h-auto bottom-0' src={Banner2} alt=''/>
           
            </div>
-        <div className='lg:w-2/6  lsm:hidden lg:block flex flex-col justify-center items-center '> 
+        <div className='lg:w-3/12  lsm:hidden lg:block flex flex-col justify-center items-center '> 
         {Veg1.map((items, index)=>(
 
           <Link
@@ -111,7 +111,7 @@ const Page3 = () => {
 
 
          </div>
-        <div className='xsm:w-full lg:w-10/12 flex xsm:flex-col lsm:flex-row lsm:flex-wrap lg:flex-row lg:flex-wrap   justify-center itmes-center'>
+        <div className='xsm:w-full lg:w-6/12 flex xsm:flex-col lsm:flex-row lsm:flex-wrap lg:flex-row lg:flex-wrap   justify-center itmes-center'>
 
           {Veg.map((items, index)=>(
 

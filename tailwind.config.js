@@ -15,6 +15,11 @@ module.exports = {
        
       },
       display: ["group-hover"],
+      width: {
+        '90': '90%',
+      }
+
+
     },
     screens: {
       "xsm":"320px",

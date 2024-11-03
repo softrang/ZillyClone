@@ -24,7 +24,7 @@ const Page4 = () => {
 
   return (
     <div className='w-full'>
-    <div className='  h-max bg-zinc-50 '>
+    <div className=' w-90 m-auto h-max bg-zinc-50 '>
     
     <div className='flex justify-between items-center '>
         <div> <h1 className=' text-3xl px-2 font-serif italic'>Trending Products</h1> </div> 
@@ -52,7 +52,7 @@ const Page4 = () => {
           </div>
 
 
-<div className='w-full h-68 p-2 bg-zinc-50  py-10'> 
+<div className='w-full h-48  bg-zinc-50  py-4'> 
 <img className='w-full h-full' src= {Banner3} alt='' />
 
 </div>

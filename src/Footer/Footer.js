@@ -7,7 +7,7 @@ import Pay from "../Assets/logoIcon/payment-logo.svg"
 const Footer = () => {
   return (
     <div className='bg-green1'>
-    <div className=' App h-max bg-green text-white '>
+    <div className=' w-90 m-auto h-max bg-green text-white '>
 <div className=' w-full h-max flex gap-2 xsm:flex-col lmd:flex-row lmd:flex-wrap lg:flex-row lg:flex-nowrap '> 
 <div className='xsm:w-full lmd:w-4/12 lg:w-1/5  '>
 <img className='py-5' src= {Llogo} alt='' />
