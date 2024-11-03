@@ -76,7 +76,7 @@ const Page3 = () => {
         </div>
 
     </div>
-    <div className=' w-full h-max bg-greenn rounded-xl  flex xsm:flex-col lsm:flex-row  gap-2'>
+    <div className=' w-full h-max bg-greenn rounded-xl  flex xsm:flex-col lsm:flex-row  '>
         <div className='xsm:w-full xsm:h-96 lsm:hidden  lg:block lg:h-auto lg:w-1/2 bg-greenn relative '> 
           <img className='absolute w-full   xsm:h-full lg:h-auto bottom-0' src={Banner2} alt=''/>
           
@@ -111,7 +111,7 @@ const Page3 = () => {
 
 
          </div>
-        <div className='xsm:w-full lg:w-10/12 flex xsm:flex-col lsm:flex-row lsm:flex-wrap lg:flex-row lg:flex-wrap gap-x-5  justify-center itmes-center'>
+        <div className='xsm:w-full lg:w-10/12 flex xsm:flex-col lsm:flex-row lsm:flex-wrap lg:flex-row lg:flex-wrap   justify-center itmes-center'>
 
           {Veg.map((items, index)=>(
 

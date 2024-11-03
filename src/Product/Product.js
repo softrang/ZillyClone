@@ -3,14 +3,14 @@ import StarRating from './Starrating'
 
 const Product = ({deta}) => {
   return (
-    <div className='w-80 h-max  p-2'>
-        <div className='w-full shadow-md shadow-zinc-800 h-max bg-white1 rounded-xl border-2 border-zinc-300 py-2'> 
+    <div className='xsm:w-[100vw] sm:w-[49.5vw]  md:w-[33vw] lg:w-[19.9vw] h-max  '>
+        <div className='w-full  h-max bg-white1  border border-zinc-200 py-2'> 
         <div className='w-full  '> 
             <h1 className='px-2 py-2'>{deta.Ftitle}</h1>
 
         </div>
         <div className='w-full h-44  flex justify-center items-center'> 
-            <img className='w-7/12 h-auto hover:scale-110 transition-all' src={deta.image} alt='' />
+            <img className='w-7/12 h-full hover:scale-110 transition-all' src={deta.image} alt='' />
 
         </div>
         <div className='w-full h-44 p-5'> 

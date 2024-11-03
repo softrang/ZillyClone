@@ -32,7 +32,7 @@ const Page4 = () => {
             <button className=' px-5 py-2 bg-rose-500'>See More</button>
         </div>
     </div>
-    <div className='w-full bg-zinc-50 flex flex-wrap gap-x-0 gap-y-5 justify-center items-center'>
+    <div className='w-full bg-zinc-50 flex flex-wrap   justify-center items-center'>
    
    
     {Veg.map((items, index)=>(

@@ -61,7 +61,7 @@ const Page5 = () => {
 
  </div>
  <div className='xsm:w-full md:w-9/12 h-max flex  xsm:flex-col md:flex-row'> 
-<div className=' xsm:w-full  w-1/2 h-full bg-zinc-50 p-2 '> 
+<div className=' xsm:w-full  w-1/2 h-full bg-zinc-50  '> 
 
 {Veg1.map((items, index)=>(
 
@@ -83,7 +83,7 @@ const Page5 = () => {
 
 
 
-<div className='xsm:w-full w-1/2  lsm:hidden md:block h-max bg-zinc-50 p-2'>
+<div className='xsm:w-full w-1/2  lsm:hidden md:block h-max bg-zinc-50 '>
 
 {Veg2.map((items, index)=>(
 
