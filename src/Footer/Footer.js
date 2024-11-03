@@ -20,33 +20,33 @@ const Footer = () => {
  <div className='xsm:w-full lmd:w-7/12 lg:w-8/12 flex  xsm:flex-col sm:flex-row sm:flex-wrap '> 
 <div className='xsm:w-full sm:w-1/2  md:w-1/3   '> 
 <h1 className='text-2xl px-5 py-5 '> Quick Links </h1>
-<h1 className='text-xl px-5 py-1 '> Smartphones </h1>
-<h1 className='text-xl px-5 py-1 '> Headphones </h1>
-<h1 className='text-xl px-5 py-1 '> Laptop & Tablet </h1>
-<h1 className='text-xl px-5 py-1 '> Monitors </h1>
-<h1 className='text-xl px-5 py-1 '> Printers </h1>
-<h1 className='text-xl px-5 py-1 '> Gadgets </h1>
+<h1 className='text-lg px-5 py-1 '> Smartphones </h1>
+<h1 className='text-lg px-5 py-1 '> Headphones </h1>
+<h1 className='text-lg px-5 py-1 '> Laptop & Tablet </h1>
+<h1 className='text-lg px-5 py-1 '> Monitors </h1>
+<h1 className='text-lg px-5 py-1 '> Printers </h1>
+<h1 className='text-lg px-5 py-1 '> Gadgets </h1>
  
  
 </div> 
 <div className='xsm:w-full sm:w-1/2 md:w-1/3 lmd:w-1/4 lg:w-1/4    '> 
 <h1 className='text-2xl px-5 py-5 '> Acount </h1>
-<h1 className='text-xl px-5 py-1 '> Dashboard </h1>
-<h1 className='text-xl px-5 py-1 '> Orders </h1>
-<h1 className='text-xl px-5 py-1 '> Edit Address </h1>
-<h1 className='text-xl px-5 py-1 '> Order Details </h1>
-<h1 className='text-xl px-5 py-1 '> Thank You </h1>
-<h1 className='text-xl px-5 py-1 '> Login Register</h1>
+<h1 className='text-lg px-5 py-1 '> Dashboard </h1>
+<h1 className='text-lg px-5 py-1 '> Orders </h1>
+<h1 className='text-lg px-5 py-1 '> Edit Address </h1>
+<h1 className='text-lg px-5 py-1 '> Order Details </h1>
+<h1 className='text-lg px-5 py-1 '> Thank You </h1>
+<h1 className='text-lg px-5 py-1 '> Login Register</h1>
 
 </div>
 <div className='xsm:w-full sm:w-1/2  md:w-1/3  lmd:w-2/5 lg:w-2/5 '> 
 <h1 className='text-2xl px-5 py-5 '> Privacy Policy </h1>
-<h1 className='text-xl px-5 py-1 '> Returns & Exchanges </h1>
-<h1 className='text-xl px-5 py-1 '> Payment Terms </h1>
-<h1 className='text-xl px-5 py-1 '> Delivery Terms</h1>
-<h1 className='text-xl px-5 py-1 '> Payment & Pricing </h1>
-<h1 className='text-xl px-5 py-1 '> Terms Of Use </h1>
-<h1 className='text-xl px-5 py-1 '> Privacy Policy </h1>
+<h1 className='text-lg px-5 py-1 '> Returns & Exchanges </h1>
+<h1 className='text-lg px-5 py-1 '> Payment Terms </h1>
+<h1 className='text-lg px-5 py-1 '> Delivery Terms</h1>
+<h1 className='text-lg px-5 py-1 '> Payment & Pricing </h1>
+<h1 className='text-lg px-5 py-1 '> Terms Of Use </h1>
+<h1 className='text-lg px-5 py-1 '> Privacy Policy </h1>
 
 </div>
 </div>

@@ -15,7 +15,7 @@ const Blog1 = ({deta}) => {
        
 
 <div className='w-full h-10 flex justify-end items-center'> 
-  <button className='px-2 py-1 bg-sky-900 rounded-xl font-bold text-zinc-50 hover:bg-green1 hover:text-white'> Read More </button>
+  <button className='px-5 py-1 bg-sky-900 rounded-xl font-bold text-zinc-50 hover:bg-green1 hover:text-white'> Read More </button>
 </div>
 
 </div>
